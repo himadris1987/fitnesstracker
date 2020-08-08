@@ -7,7 +7,7 @@ const path = require('path');
 const connectDB = require("./config/connectDB.js");
 
 //Bring in models
-const db = require("./models");
+const db = require("./Develop/models");
 
 // Create an instance of the express app.
 let app = express();
